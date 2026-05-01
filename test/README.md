@@ -8,7 +8,7 @@
 
 ## test_grids
 
-`test grids` pressed `gen` and records the resulting pattern in the grid. It waits a few cycles and presses `gen` again, also recording the resulting pattern in the grid. It then checks that the grid patterns are unique.
+`test_grids` presses `gen` and records the resulting pattern in the grid. It waits a few cycles and presses `gen` again, recording the resulting pattern in the grid once more. It then checks that the grid patterns are unique.
 
 ## test_passive
 
