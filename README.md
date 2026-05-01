@@ -2,6 +2,8 @@
 
 # Stimulus Generator (+Tile Growth Simulator) Project
 
+Hi! This is my project for TinyTapeout. The Stimulus Generator is an ASIC to be taped out. This repository contains the hardware description and testbench for the Stimulus Generator. It interfaces with the Tile Growth Simulator which runs on an FPGA.
+
 - [Read the documentation for the Stimulus Generator (ASIC)](docs/info.md)
 
 ## Tile Growth Simulator (on FPGA)
