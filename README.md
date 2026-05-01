@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Stimulus Generator (+Tile Growth Simulator) Project
+# Stimulus Generator (& Tile Growth Simulator) Project
 
 Hi! This is my project for TinyTapeout. The Stimulus Generator is an ASIC. This repository contains the hardware description and testbench for the Stimulus Generator. It interfaces with the Tile Growth Simulator which runs on an FPGA.
 
@@ -10,7 +10,7 @@ Tile Growth Simulator is an interactive cellular simulation displayed on a 16×1
 
 The Tile Growth Simulator is located in the repository linked here: [Tile Growth Simulator](https://github.com/NoahWilmot/Tile-Growth-Simulator)
 
-The repository linked above contains information on configuring the entire system (Tile Growth Simulator + Stimulus Generator).
+The repository linked above contains information on configuring the entire system (Tile Growth Simulator & Stimulus Generator).
 
 ## Stimulus Generator (on ASIC)
 
