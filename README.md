@@ -10,7 +10,7 @@ Tile Growth Simulator is an interactive cellular simulation displayed on a 16×1
 
 The Tile Growth Simulator is located in the repository linked here: [Tile Growth Simulator](https://github.com/NoahWilmot/Tile-Growth-Simulator)
 
-The repository above contains information on configuring the entire system.
+The repository linked above contains information on configuring the entire system (Tile Growth Simulator + Stimulus Generator).
 
 ## Stimulus Generator (on ASIC)
 
