@@ -42,7 +42,7 @@ module StimulusGen (
         else begin
             gen_pulse <= 1'b0;
             if (gen_sync[1] != gen_stable) begin
-                if (deb_cnt == DEB_WIDTH'(STABLE_CNT - 1)) begin
+                if (deb_cnt == DEB_WIDTH'(DEB_WIDTH'(STABLE_CNT) - 1)) begin
                     deb_cnt    <= '0;
                     gen_stable <= gen_sync[1];
                     if (gen_sync[1]) gen_pulse <= 1'b1;
