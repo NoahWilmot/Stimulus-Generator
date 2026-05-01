@@ -18,6 +18,6 @@ The Stimulus Generator is a peripheral designed to streamline the pre-game setup
 
 - [Read the documentation for the Stimulus Generator (ASIC)](docs/info.md)
 
-Please explore the rest of the repository for a look at the hardware description of the Stimulus Generator and the testbench to ensure its functionality.
+Please explore the rest of the repository for a look at the hardware description of the Stimulus Generator and the testbench used to ensure its functionality.
 
 
