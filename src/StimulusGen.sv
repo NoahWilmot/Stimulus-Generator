@@ -24,6 +24,7 @@ module StimulusGen (
     logic [DEB_WIDTH:0] deb_cnt;
     logic gen_stable, gen_pulse;
 
+    // Synchronizer
     always_ff @(posedge clock, negedge reset_n) begin
         if (~reset_n) begin 
             gen_sync <= 2'b00;
