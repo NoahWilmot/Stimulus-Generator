@@ -41,7 +41,7 @@ module tt_um_Stimulus_Generator_NoahW (
     assign uo_out[3:0] = wr_row;
     assign uo_out[7:4] = wr_col;
 
-    assign uio_oe = 8'b0000_1111;
+    assign uio_oe = 8'b1111_1111;
 
     wire _unused = &{ena, uio_in, ui_in[7:1], 1'b0};
 
