@@ -10,6 +10,8 @@ Tile Growth Simulator is an interactive cellular simulation displayed on a 16×1
 
 The Tile Growth Simulator is located in the repository linked here: [Tile Growth Simulator](https://github.com/NoahWilmot/Tile-Growth-Simulator)
 
+The repository above contains information on configuring the entire system.
+
 ## Stimulus Generator (on ASIC)
 
 The Stimulus Generator is a peripheral designed to streamline the pre-game setup. Pressing the generate button populates the grid with a randomised pattern of red and blue tiles. The button can be pressed multiple times, layering new patterns on top of existing ones. The game can then be started as normal.
