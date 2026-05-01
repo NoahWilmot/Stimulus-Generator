@@ -25,42 +25,52 @@ Run the cocotb testbench in the repository to verify correct behaviour in simula
 - TileGrowth FPGA host
 - Push button for `gen`
 
-## More Details
+# Project Info 
 
-Frequency requirement : 25 MHz
+## Frequency requirement 
 
-Pinout:
+**25 MHz**
 
-Inputs
+---
 
-ui[0]: "gen"
-ui[1]: ""
-ui[2]: ""
-ui[3]: ""
-ui[4]: ""
-ui[5]: ""
-ui[6]: ""
-ui[7]: ""
+## Pinout:
+
+### Inputs
+
+| Pin     | Signal  | Description        |
+|---------|---------|--------------------|
+| `ui[0]` | `gen`   | Generate pattern   |
+| `ui[1]` | —       | Unused             |
+| `ui[2]` | —       | Unused             |
+| `ui[3]` | —       | Unused             |
+| `ui[4]` | —       | Unused             |
+| `ui[5]` | —       | Unused             |
+| `ui[6]` | —       | Unused             |
+| `ui[7]` | —       | Unused             |
   
-Outputs
+### Outputs
+
+| Pin     | Signal       | Description          |
+|---------|--------------|----------------------|
+| `uo[0]` | `wr_row[0]`  | Write row, bit 0     |
+| `uo[1]` | `wr_row[1]`  | Write row, bit 1     |
+| `uo[2]` | `wr_row[2]`  | Write row, bit 2     |
+| `uo[3]` | `wr_row[3]`  | Write row, bit 3     |
+| `uo[4]` | `wr_col[0]`  | Write column, bit 0  |
+| `uo[5]` | `wr_col[1]`  | Write column, bit 1  |
+| `uo[6]` | `wr_col[2]`  | Write column, bit 2  |
+| `uo[7]` | `wr_col[3]`  | Write column, bit 3  |
   
-uo[0]: "wr_row[0]"
-uo[1]: "wr_row[1]"
-uo[2]: "wr_row[2]"
-uo[3]: "wr_row[3]"
-uo[4]: "wr_col[0]"
-uo[5]: "wr_col[1]"
-uo[6]: "wr_col[2]"
-uo[7]: "wr_col[3]"
+### Bidirectional pins
   
-Bidirectional pins
-  
-uio[0]: "wants_ctrl"
-uio[1]: "wr_en"
-uio[2]: "wr_data[0]"
-uio[3]: "wr_data[1]"
-uio[4]: ""
-uio[5]: ""
-uio[6]: ""
-uio[7]: ""
+| Pin      | Signal       | Description          |
+|----------|--------------|----------------------|
+| `uio[0]` | `wants_ctrl` | Request control      |
+| `uio[1]` | `wr_en`      | Write enable         |
+| `uio[2]` | `wr_data[0]` | Write data, bit 0    |
+| `uio[3]` | `wr_data[1]` | Write data, bit 1    |
+| `uio[4]` | —            | Unused               |
+| `uio[5]` | —            | Unused               |
+| `uio[6]` | —            | Unused               |
+| `uio[7]` | —            | Unused               |
 
