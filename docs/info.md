@@ -31,34 +31,36 @@ Frequency requirement : 25 MHz
 
 Pinout:
 
-  ui[0]: "gen"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+Inputs
+
+ui[0]: "gen"
+ui[1]: ""
+ui[2]: ""
+ui[3]: ""
+ui[4]: ""
+ui[5]: ""
+ui[6]: ""
+ui[7]: ""
   
-  Outputs
+Outputs
   
-  uo[0]: "wr_row[0]"
-  uo[1]: "wr_row[1]"
-  uo[2]: "wr_row[2]"
-  uo[3]: "wr_row[3]"
-  uo[4]: "wr_col[0]"
-  uo[5]: "wr_col[1]"
-  uo[6]: "wr_col[2]"
-  uo[7]: "wr_col[3]"
+uo[0]: "wr_row[0]"
+uo[1]: "wr_row[1]"
+uo[2]: "wr_row[2]"
+uo[3]: "wr_row[3]"
+uo[4]: "wr_col[0]"
+uo[5]: "wr_col[1]"
+uo[6]: "wr_col[2]"
+uo[7]: "wr_col[3]"
   
-  Bidirectional pins
+Bidirectional pins
   
-  uio[0]: "wants_ctrl"
-  uio[1]: "wr_en"
-  uio[2]: "wr_data[0]"
-  uio[3]: "wr_data[1]"
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+uio[0]: "wants_ctrl"
+uio[1]: "wr_en"
+uio[2]: "wr_data[0]"
+uio[3]: "wr_data[1]"
+uio[4]: ""
+uio[5]: ""
+uio[6]: ""
+uio[7]: ""
 
